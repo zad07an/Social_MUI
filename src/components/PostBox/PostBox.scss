@@ -1,0 +1,55 @@
+.feed_post_box {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px #ccc;
+
+  .post_author {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .author_side {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .post {
+    width: 100%;
+    padding: 10px;
+    
+    .post_image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border-radius: 5px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+  }
+
+  .post_reactions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .like_share {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}

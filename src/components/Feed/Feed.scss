@@ -1,0 +1,9 @@
+.feed_container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid #ccc;
+  padding: 40px 0;
+}

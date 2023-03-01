@@ -1,0 +1,9 @@
+.sidebar_container {
+  min-height: 100vh;
+  border-right: 1px solid #ccc;
+}
+@media (max-width: 1024px) {
+  .sidebar_container {
+    display: none;
+  }
+}/*# sourceMappingURL=Sidebar.css.map */

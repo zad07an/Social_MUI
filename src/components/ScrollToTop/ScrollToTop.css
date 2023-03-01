@@ -1,0 +1,16 @@
+.scroll_to_top_ui {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background: #3DAB3D;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}/*# sourceMappingURL=ScrollToTop.css.map */

@@ -1,0 +1,47 @@
+.feed_post_box {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px #ccc;
+}
+.feed_post_box .post_author {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed_post_box .post_author .author_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.feed_post_box .post {
+  width: 100%;
+  padding: 10px;
+}
+.feed_post_box .post .post_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.feed_post_box .post .post_image img {
+  width: 100%;
+  height: 100%;
+}
+.feed_post_box .post_reactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed_post_box .post_reactions .like_share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}/*# sourceMappingURL=PostBox.css.map */

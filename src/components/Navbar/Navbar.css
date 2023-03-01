@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: white;
+  position: fixed;
+  z-index: 999;
+}
+.header .nav {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .nav .logo a {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+.header .nav .logo a span {
+  color: #3DAB3D;
+}
+.header .nav .nav_menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 1024px) {
+  .header .nav .nav_menu {
+    width: 300px;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    top: 60px;
+    right: -500px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+    transition: 0.2s linear;
+    background: white;
+  }
+}
+.header .nav .nav_menu .nav_list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+@media (max-width: 1024px) {
+  .header .nav .nav_menu .nav_list {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+}
+.header .nav .nav_menu .nav_list .messages, .header .nav .nav_menu .nav_list .notifications, .header .nav .nav_menu .nav_list .username {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .header .nav .nav_menu .nav_list .messages, .header .nav .nav_menu .nav_list .notifications, .header .nav .nav_menu .nav_list .username {
+    display: block;
+  }
+}
+.header .nav .nav_menu .nav_list .nav_link {
+  font-size: 18px;
+  color: #202124;
+  transition: 0.1s ease-in-out;
+}
+.header .nav .nav_menu .nav_list .active {
+  color: #3DAB3D;
+}
+.header .nav .active_menu {
+  position: absolute;
+  right: 0;
+}
+.header .nav .contact_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .header .nav .contact_button {
+    display: none;
+  }
+}
+.header .nav .contact_button button {
+  padding: 8px 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background: rgb(61, 171, 61);
+  cursor: pointer;
+}
+.header .nav .hamburger_menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .header .nav .hamburger_menu {
+    display: flex;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

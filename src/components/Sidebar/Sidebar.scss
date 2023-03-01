@@ -1,0 +1,10 @@
+@import '../../utils/breakpoints';
+
+.sidebar_container {
+  min-height: 100vh;
+  border-right: 1px solid #ccc;
+
+  @include tablet_lg {
+    display: none;
+  }
+}

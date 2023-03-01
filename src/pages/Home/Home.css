@@ -1,0 +1,12 @@
+.home_container {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-top: 60px;
+}
+@media (max-width: 1024px) {
+  .home_container {
+    grid-template-columns: 4fr 1fr;
+  }
+}/*# sourceMappingURL=Home.css.map */
